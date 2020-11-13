@@ -1,0 +1,83 @@
+h1{
+    color: brown;
+}
+h2{
+    color: blue;
+}
+ul{
+    color: darkred;
+}
+ol{
+    color: darkgreen;
+}
+.header{
+    background-color: #bdb7bd;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 20px;
+}
+.menu{
+    background-color: #90ee90;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+.panda{
+    background-color: #20b2aa;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin: 20px;
+}
+.title{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.pigeon{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+a.link{
+    color: blue;
+}
+a.visited{
+    color: #ffffff;
+}
+.panda:hover{
+    transform: scale(1.1);
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+.header:hover{
+    transform: scale(1.1);
+}
+.pigeon:hover{
+    transform: scale(1.1);
+}
+.title:hover{
+    transform: scale(1.1);
+}
+.title{
+    position: absolute;
+}
+.text{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+   position: relative;
+   text-decoration: none;
+}
+.text:hover{
+transform: scale(1.1);
+}
+body{
+    margin: 0px;
+    background-color: #ff7f50;
+}
